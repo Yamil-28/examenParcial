@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+.card{
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(10, 223, 92, 0.1);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.card-header{
+    background-color: #da233e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
